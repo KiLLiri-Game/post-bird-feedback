@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fff7f1">
+  <meta name="description" content="Share a bug, visual issue, typo or suggestion for POST BIRD. A little letter to the developer.">
+  <title>POST BIRD · Feedback</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body data-page="form">
+  <header class="top-bar">
+    <div class="top-bar-inner">
+      <span class="small-sign" aria-label="POST BIRD">POST BIRD <span class="sign-dot">•</span> <span data-i18n="smallSign">A little letter to the developer</span></span>
+      <div class="lang-wrap" id="langWrap">
+        <button type="button" class="language-trigger" id="langTrigger" aria-haspopup="true" aria-expanded="false" aria-controls="languageList">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>
+          <span id="currentLanguage">English</span>
+          <svg class="chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="language-list" id="languageList" hidden role="menu" aria-label="Select language">
+          <button type="button" role="menuitemradio" aria-checked="true" data-lang="en">English <span>EN</span></button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-lang="ru">Русский <span>RU</span></button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-lang="zh-CN">简体中文 <span>简</span></button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-lang="es">Español <span>ES</span></button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-lang="pt-BR">Português (Brasil) <span>BR</span></button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-lang="de">Deutsch <span>DE</span></button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-lang="fr">Français <span>FR</span></button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-lang="pl">Polski <span>PL</span></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="post-office">
+    <div class="paper-sheet">
+      <svg class="flap" viewBox="0 0 1000 175" preserveAspectRatio="none" aria-hidden="true">
+        <path class="flap-fill" d="M1 2 Q498 232 999 2 L999 0 L1 0 Z"/>
+        <path class="flap-outline" d="M2 2 Q498 225 998 2" />
+      </svg>
+      <div class="wax-seal" aria-hidden="true"><span>PB</span></div>
+      <svg class="postmark" viewBox="0 0 142 82" fill="none" aria-hidden="true">
+        <g stroke="#bc906d" stroke-width="2.1" stroke-linecap="round" opacity=".78">
+          <path d="M4 38c17-16 35-14 55 0S94 52 114 35"/><path d="M4 49c17-16 35-14 55 0S94 63 114 46"/><path d="M4 60c17-16 35-14 55 0S94 74 114 57"/>
+        </g>
+      </svg>
+      <div class="stamp" aria-hidden="true">
+        <svg viewBox="0 0 72 72" fill="none"><path class="stamp-edge" d="M4 4h64v64H4z"/><path class="stamp-bird" d="M15 38c12 0 17-8 21-18 4 11 10 17 21 19-10 2-15 6-18 15-7-5-13-9-24-16Z"/></svg>
+      </div>
+      <div class="sheet-content">
+        <h1 data-i18n="title">Report an issue</h1>
+        <p class="subtitle" data-i18n="subtitle">Noticed something unusual? Send a little letter — every report helps.</p>
+        <form id="feedbackForm" action="#" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
+          <input type="hidden" name="_subject" id="formSubject" value="POST BIRD — player feedback">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" id="nextUrl" value="">
+          <input type="hidden" name="Language" id="reportLanguage" value="English">
+          <input type="hidden" name="Website" id="formWebsite" value="">
+          <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <div class="form-row type-row">
+            <div class="row-label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 3H5a2 2 0 0 0-2 2v6l9 10 9-9-10-9Z"/><circle cx="7.5" cy="7.5" r="1.2"/></svg><span data-i18n="typeLabel">What did you notice?</span></div>
+            <fieldset class="type-options" aria-label="Issue type" id="issueTypes">
+              <legend class="sr-only" data-i18n="typeLabel">What did you notice?</legend>
+              <label class="type-option"><input type="radio" name="Issue type" value="Bug or crash" checked><span class="radio-mark"></span><span data-i18n="typeBug">Bug or crash</span></label>
+              <label class="type-option"><input type="radio" name="Issue type" value="Visual issue"><span class="radio-mark"></span><span data-i18n="typeVisual">Visual issue</span></label>
+              <label class="type-option"><input type="radio" name="Issue type" value="Typo or translation"><span class="radio-mark"></span><span data-i18n="typeText">Typo or translation</span></label>
+              <label class="type-option"><input type="radio" name="Issue type" value="Game suggestion"><span class="radio-mark"></span><span data-i18n="typeIdea">Game suggestion</span></label>
+            </fieldset>
+          </div>
+
+          <div class="form-row">
+            <label class="row-label" for="description"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h10l4 4v16H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z"/><path d="M16 2v5h4M8 12h8M8 16h8"/></svg><span data-i18n="descriptionLabel">Describe the problem <b>*</b></span></label>
+            <div class="field-wrap"><textarea name="Description" id="description" maxlength="3500" minlength="8" rows="4" required data-placeholder="descriptionPlaceholder" placeholder="What happened, and where exactly?"></textarea><small class="field-help" data-i18n="descriptionHelp">Even a short explanation helps us find the issue.</small></div>
+          </div>
+
+          <div class="form-row">
+            <label class="row-label" for="steps"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h13M7 12h13M7 19h13"/><path d="m2 5 2 2 2-3M2 12l2 2 2-3M2 19l2 2 2-3"/></svg><span data-i18n="stepsLabel">How to reproduce <em>(optional)</em></span></label>
+            <textarea name="Steps to reproduce" id="steps" maxlength="2000" rows="3" data-placeholder="stepsPlaceholder" placeholder="What were you doing just before it happened?"></textarea>
+          </div>
+
+          <div class="form-row">
+            <label class="row-label" for="email"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 8 9-8"/></svg><span data-i18n="emailLabel">Your email <em>(optional)</em></span></label>
+            <div class="field-wrap"><input type="email" name="email" id="email" maxlength="180" autocomplete="email" data-placeholder="emailPlaceholder" placeholder="Only if you'd like a reply"><small class="field-help" data-i18n="emailHelp">Only used if a reply is needed.</small></div>
+          </div>
+
+          <div class="form-row attachment-row">
+            <div class="row-label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 11-8 8a5 5 0 0 1-7-7L15 3a3.5 3.5 0 0 1 5 5l-9 9a2 2 0 1 1-3-3l8-8"/></svg><span data-i18n="screenshotLabel">Screenshot <em>(optional)</em></span></div>
+            <div class="field-wrap"><label for="attachment" class="attachment-drop" id="dropZone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m-4 4 4-4 4 4"/><path d="M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5"/></svg><span id="attachmentText" data-i18n="screenshotChoose">Choose a photo or drag it here</span><span class="file-subnote" data-i18n="screenshotFormats">PNG, JPG or WEBP · max. 9 MB</span></label><input type="file" name="attachment" id="attachment" accept="image/png,image/jpeg,image/webp"><button type="button" class="remove-file" id="removeAttachment" hidden data-i18n="removeImage">Remove image</button></div>
+          </div>
+
+          <div class="actions"><button class="send-button" type="submit" id="sendButton"><svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M29 3 2 14l11 4 4 12L29 3Zm-14 14 9-9-7 15-2-6Z"/></svg><span data-i18n="send">Send a letter</span></button><p class="status-note" id="statusNote" role="alert" hidden></p></div>
+        </form>
+      </div>
+      <div class="pigeon-illustration" aria-hidden="true"><span class="wonder wonder-one"></span><span class="wonder wonder-two"></span><span class="wonder wonder-three"></span><img src="assets/pigeon.png" width="465" height="415" alt=""></div>
+    </div>
+    <footer class="footer-note"><span data-i18n="footerMessage">A small indie project, made with care. Thanks for helping POST BIRD grow.</span><a href="privacy.html" id="privacyLink" data-i18n="privacy">Privacy</a></footer>
+  </main>
+</body>
+</html>
