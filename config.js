@@ -3,4 +3,4 @@
  * Paste ONLY the random token between the quotes, NOT your email address.
  * This is a public routing alias, not a password or encryption key.
  */
-window.POST_BIRD_FORM_TOKEN = "PASTE_YOUR_INVISIBLE_EMAIL_TOKEN_HERE";
+window.POST_BIRD_FORM_TOKEN = "2c5c0442a78d97050c188bfef5566c07";
