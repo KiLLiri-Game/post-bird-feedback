@@ -16,7 +16,7 @@
       privacyDataTitle:'What is collected',privacyData:'Issue category, your description, optional reproduction steps, an optional screenshot and an optional reply email. Technical data may also be processed by the form provider.',
       privacyWhereTitle:'Where the message goes',privacyWhere:'The form is sent through FormSubmit.co, a third-party form service, and forwarded to the POST BIRD developer by email. GitHub Pages only hosts this website.',
       privacyWhyTitle:'How it is used',privacyWhy:'Your message is used to investigate issues, improve the game and, only if you provide an email, possibly reply. Please do not submit passwords or sensitive personal information.',
-      privacyChoiceTitle:'Your choice',privacyChoice:'Providing an email and a screenshot is optional. For privacy questions or requests relating to a submitted report, provide an appropriate public contact method before publishing this page.',privacyBack:'Back to the form',
+      privacyChoiceTitle:'Your choice',privacyChoice:'Providing an email address and a screenshot is optional.',privacyBack:'Back to the form',
     },
     ru: {
       name:'Русский',smallSign:'Маленькое письмо разработчику',title:'Сообщить о проблеме',subtitle:'Заметили что-то необычное? Отправьте письмо — каждый отзыв помогает.',
@@ -32,7 +32,7 @@
       privacyDataTitle:'Какие данные собираются',privacyData:'Тип обращения, описание, необязательные шаги воспроизведения, скриншот и адрес для ответа. Сервис обработки формы также может обрабатывать технические сведения.',
       privacyWhereTitle:'Куда отправляется сообщение',privacyWhere:'Сообщение обрабатывается сторонним сервисом FormSubmit.co и пересылается разработчику POST BIRD по почте. GitHub Pages только размещает сам сайт.',
       privacyWhyTitle:'Для чего используются данные',privacyWhy:'Сведения нужны для поиска ошибок и улучшения игры, а адрес почты — для возможного ответа. Не отправляйте пароли или чувствительную личную информацию.',
-      privacyChoiceTitle:'Ваш выбор',privacyChoice:'Указывать почту и прикладывать скриншот необязательно. Перед публикацией сайта разработчик должен дополнить эту страницу контактными данными для запросов по персональным данным.',privacyBack:'Вернуться к форме',
+      privacyChoiceTitle:'Ваш выбор',privacyChoice:'Указывать адрес электронной почты и прикреплять скриншот необязательно.',privacyBack:'Вернуться к форме',
     },
     'zh-CN': {
       name:'简体中文',smallSign:'给开发者的一封信',title:'反馈问题',subtitle:'发现了什么异常？给我们写封信吧，每条反馈都很重要。',
@@ -48,7 +48,7 @@
       privacyDataTitle:'收集的信息',privacyData:'反馈类别、描述、可选的重现步骤、截图和回复邮箱。表单服务商也可能处理技术数据。',
       privacyWhereTitle:'信息发送到哪里',privacyWhere:'表单由第三方 FormSubmit.co 处理，并通过电子邮件转发给 POST BIRD 开发者。GitHub Pages 仅负责托管网页。',
       privacyWhyTitle:'信息用途',privacyWhy:'用于排查问题、改进游戏，并在您提供邮箱时回复。请不要发送密码或敏感个人信息。',
-      privacyChoiceTitle:'您的选择',privacyChoice:'提供邮箱和截图均为自愿。发布网站前，开发者应补充隐私联系信息。',privacyBack:'返回表单',
+      privacyChoiceTitle:'您的选择',privacyChoice:'填写电子邮箱和上传截图均为自愿。',privacyBack:'返回表单',
     },
     es: {
       name:'Español',smallSign:'Una carta para quien desarrolla el juego',title:'Informar de un problema',subtitle:'¿Has notado algo extraño? Envíanos una carta: cada aviso ayuda.',
@@ -64,7 +64,7 @@
       privacyDataTitle:'Datos recopilados',privacyData:'Tipo de problema, descripción, pasos opcionales, captura y correo opcional. El proveedor del formulario también puede procesar datos técnicos.',
       privacyWhereTitle:'Destino de tu mensaje',privacyWhere:'El mensaje pasa por FormSubmit.co, un servicio externo, y se reenvía por correo a la persona que desarrolla POST BIRD. GitHub Pages solo aloja la web.',
       privacyWhyTitle:'Uso de la información',privacyWhy:'Se utiliza para investigar errores, mejorar el juego y, si facilitas un correo, responder cuando sea necesario. No incluyas contraseñas ni datos sensibles.',
-      privacyChoiceTitle:'Tú decides',privacyChoice:'El correo y la captura son opcionales. Antes de publicar, la persona responsable debe añadir datos de contacto para consultas de privacidad.',privacyBack:'Volver al formulario',
+      privacyChoiceTitle:'Tú decides',privacyChoice:'Indicar un correo electrónico y adjuntar una captura de pantalla es opcional.',privacyBack:'Volver al formulario',
     },
     'pt-BR': {
       name:'Português (Brasil)',smallSign:'Uma cartinha para quem criou o jogo',title:'Relatar um problema',subtitle:'Notou algo estranho? Envie uma cartinha — cada relato ajuda.',
@@ -80,7 +80,7 @@
       privacyDataTitle:'Dados coletados',privacyData:'Categoria, descrição, etapas opcionais, imagem e e-mail opcional. O serviço do formulário também pode processar dados técnicos.',
       privacyWhereTitle:'Para onde vai a mensagem',privacyWhere:'A mensagem é processada pelo serviço externo FormSubmit.co e encaminhada por e-mail à pessoa que desenvolve POST BIRD. O GitHub Pages apenas hospeda o site.',
       privacyWhyTitle:'Como os dados são usados',privacyWhy:'Para investigar problemas, melhorar o jogo e, se houver e-mail, responder quando necessário. Não envie senhas nem dados pessoais sensíveis.',
-      privacyChoiceTitle:'Sua escolha',privacyChoice:'O e-mail e a imagem são opcionais. Antes da publicação, é preciso informar um contato para questões de privacidade.',privacyBack:'Voltar ao formulário',
+      privacyChoiceTitle:'Sua escolha',privacyChoice:'Informar um e-mail e anexar uma captura de tela é opcional.',privacyBack:'Voltar ao formulário',
     },
     de: {
       name:'Deutsch',smallSign:'Ein kleiner Brief an die Entwicklung',title:'Problem melden',subtitle:'Etwas Ungewöhnliches entdeckt? Schreib einen Brief – jede Meldung hilft.',
@@ -96,7 +96,7 @@
       privacyDataTitle:'Erfasste Angaben',privacyData:'Kategorie, Beschreibung, optionale Schritte, optionales Bild und optionale E-Mail. Der Formulardienst kann auch technische Daten verarbeiten.',
       privacyWhereTitle:'Empfänger der Nachricht',privacyWhere:'Das Formular wird über den Drittanbieter FormSubmit.co verarbeitet und per E-Mail an die Entwicklung von POST BIRD weitergeleitet. GitHub Pages hostet nur die Website.',
       privacyWhyTitle:'Verwendung',privacyWhy:'Die Daten helfen, Fehler zu untersuchen und das Spiel zu verbessern. Falls du eine E-Mail angibst, ist auch eine Rückfrage möglich. Bitte keine Passwörter oder sensiblen Daten senden.',
-      privacyChoiceTitle:'Freiwillige Angaben',privacyChoice:'E-Mail und Screenshot sind freiwillig. Vor Veröffentlichung sind Kontaktangaben für Datenschutzanfragen zu ergänzen.',privacyBack:'Zurück zum Formular',
+      privacyChoiceTitle:'Freiwillige Angaben',privacyChoice:'Die Angabe einer E-Mail-Adresse und das Hochladen eines Screenshots sind freiwillig.',privacyBack:'Zurück zum Formular',
     },
     fr: {
       name:'Français',smallSign:'Un petit courrier pour le développement',title:'Signaler un problème',subtitle:'Vous avez remarqué quelque chose ? Envoyez une lettre : chaque retour compte.',
@@ -112,7 +112,7 @@
       privacyDataTitle:'Informations recueillies',privacyData:'Catégorie, description, étapes facultatives, capture et adresse e-mail facultative. Le service de formulaire peut aussi traiter des données techniques.',
       privacyWhereTitle:'Où va votre message',privacyWhere:'Votre message passe par FormSubmit.co, un service tiers, puis est transmis par e-mail à la personne qui développe POST BIRD. GitHub Pages héberge seulement le site.',
       privacyWhyTitle:'Utilisation',privacyWhy:'Ces informations servent à rechercher les bugs, améliorer le jeu et éventuellement vous répondre si vous avez donné votre adresse. N’envoyez pas de mots de passe ni de données sensibles.',
-      privacyChoiceTitle:'C’est votre choix',privacyChoice:'L’adresse e-mail et la capture sont facultatives. Avant la publication, un contact pour les questions de confidentialité doit être ajouté.',privacyBack:'Retour au formulaire',
+      privacyChoiceTitle:'C’est votre choix',privacyChoice:'L’adresse e-mail et la capture d’écran sont facultatives.',privacyBack:'Retour au formulaire',
     },
     pl: {
       name:'Polski',smallSign:'Mały list do twórcy gry',title:'Zgłoś problem',subtitle:'Coś wygląda nie tak? Wyślij mały list — każda wiadomość pomaga.',
@@ -128,7 +128,7 @@
       privacyDataTitle:'Jakie dane są zbierane',privacyData:'Rodzaj zgłoszenia, opis, opcjonalne kroki odtworzenia, obraz i adres e-mail. Dostawca formularza może też przetwarzać dane techniczne.',
       privacyWhereTitle:'Dokąd trafia wiadomość',privacyWhere:'Wiadomość jest obsługiwana przez zewnętrzny serwis FormSubmit.co i wysyłana e-mailem do osoby tworzącej POST BIRD. GitHub Pages udostępnia tylko stronę.',
       privacyWhyTitle:'Wykorzystanie danych',privacyWhy:'Dane służą do analizy błędów, ulepszania gry i ewentualnej odpowiedzi, jeśli podasz e-mail. Nie przesyłaj haseł ani danych wrażliwych.',
-      privacyChoiceTitle:'Twój wybór',privacyChoice:'Adres e-mail i zrzut ekranu są opcjonalne. Przed publikacją należy dodać kontakt do spraw prywatności.',privacyBack:'Powrót do formularza',
+      privacyChoiceTitle:'Twój wybór',privacyChoice:'Podanie adresu e-mail i dołączenie zrzutu ekranu jest opcjonalne.',privacyBack:'Powrót do formularza',
     }
   };
 
