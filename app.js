@@ -11,7 +11,7 @@
       screenshotLabel:'Screenshot (optional)',screenshotChoose:'Choose a photo or drag it here',screenshotFormats:'PNG, JPG or WEBP · max. 9 MB', removeImage:'Remove image', send:'Send a letter',
       footerMessage:'A small indie project, made with care. Thanks for helping POST BIRD grow.',privacy:'Privacy',
       fileTooBig:'This image is too large. Please choose one smaller than 9 MB.', fileType:'Please choose a PNG, JPG or WEBP image.',localNotice:'To send a real report, open the published website (not a local HTML file).',
-      thankTitle:'Your letter is on its way!',thankBody:'Thank you for helping make POST BIRD better. Your report has been submitted.',thankBack:'Write another letter',
+      thankTitle:'Thank you for your letter!',thankBody:'Your message has been submitted to our form service. Thank you for supporting POST BIRD! This game is made by one developer, and every thoughtful report helps me make it a little better.',thankBack:'Write another letter',
       privacyTitle:'Privacy & feedback', privacyIntro:'This page collects only the information you choose to submit so the developer can review game issues and suggestions.',
       privacyDataTitle:'What is collected',privacyData:'Issue category, your description, optional reproduction steps, an optional screenshot and an optional reply email. Technical data may also be processed by the form provider.',
       privacyWhereTitle:'Where the message goes',privacyWhere:'The form is sent through FormSubmit.co, a third-party form service, and forwarded to the POST BIRD developer by email. GitHub Pages only hosts this website.',
@@ -27,7 +27,7 @@
       screenshotLabel:'Скриншот (необязательно)',screenshotChoose:'Выберите изображение или перетащите сюда',screenshotFormats:'PNG, JPG или WEBP · до 9 МБ',removeImage:'Удалить изображение',send:'Отправить письмо',
       footerMessage:'Маленькая инди-игра, созданная с заботой. Спасибо, что помогаете POST BIRD становиться лучше.',privacy:'Конфиденциальность',
       fileTooBig:'Изображение слишком большое. Выберите файл до 9 МБ.',fileType:'Выберите изображение PNG, JPG или WEBP.',localNotice:'Для настоящей отправки откройте опубликованный сайт, а не локальный HTML-файл.',
-      thankTitle:'Письмо отправлено!',thankBody:'Спасибо, что помогаете делать POST BIRD лучше. Ваше сообщение отправлено.',thankBack:'Написать ещё письмо',
+      thankTitle:'Спасибо за ваше письмо!',thankBody:'Сообщение передано сервису отправки. Спасибо за помощь и поддержку POST BIRD! Я создаю игру самостоятельно, и каждый ваш отзыв помогает мне замечать ошибки и делать её лучше.',thankBack:'Написать ещё письмо',
       privacyTitle:'Конфиденциальность',privacyIntro:'Эта страница собирает только те сведения, которые вы решите отправить, чтобы разработчик мог изучать ошибки и предложения.',
       privacyDataTitle:'Какие данные собираются',privacyData:'Тип обращения, описание, необязательные шаги воспроизведения, скриншот и адрес для ответа. Сервис обработки формы также может обрабатывать технические сведения.',
       privacyWhereTitle:'Куда отправляется сообщение',privacyWhere:'Сообщение обрабатывается сторонним сервисом FormSubmit.co и пересылается разработчику POST BIRD по почте. GitHub Pages только размещает сам сайт.',
@@ -43,7 +43,7 @@
       screenshotLabel:'截图（选填）',screenshotChoose:'选择图片或拖放到此处',screenshotFormats:'PNG、JPG 或 WEBP · 不超过 9 MB',removeImage:'移除图片',send:'寄出信件',
       footerMessage:'这是一款用心制作的独立游戏。感谢您帮助 POST BIRD 变得更好。',privacy:'隐私说明',
       fileTooBig:'图片过大，请选择小于 9 MB 的文件。',fileType:'请选择 PNG、JPG 或 WEBP 图片。',localNotice:'请在已发布的网站上提交，而不要从本地 HTML 文件提交。',
-      thankTitle:'信件已寄出！',thankBody:'感谢您帮助改进 POST BIRD。反馈已提交。',thankBack:'再写一封信',
+      thankTitle:'感谢您的来信！',thankBody:'您的反馈已提交至表单服务。感谢您支持 POST BIRD！这款游戏由一人独立制作，每一条用心的反馈都能帮助我把游戏做得更好。',thankBack:'再写一封信',
       privacyTitle:'隐私与反馈',privacyIntro:'本页面仅收集您自愿提交的信息，以便开发者检查游戏问题与建议。',
       privacyDataTitle:'收集的信息',privacyData:'反馈类别、描述、可选的重现步骤、截图和回复邮箱。表单服务商也可能处理技术数据。',
       privacyWhereTitle:'信息发送到哪里',privacyWhere:'表单由第三方 FormSubmit.co 处理，并通过电子邮件转发给 POST BIRD 开发者。GitHub Pages 仅负责托管网页。',
@@ -59,7 +59,7 @@
       screenshotLabel:'Captura de pantalla (opcional)',screenshotChoose:'Selecciona una imagen o arrástrala aquí',screenshotFormats:'PNG, JPG o WEBP · máx. 9 MB',removeImage:'Quitar imagen',send:'Enviar carta',
       footerMessage:'Un pequeño juego independiente hecho con cariño. Gracias por ayudar a mejorar POST BIRD.',privacy:'Privacidad',
       fileTooBig:'La imagen es demasiado grande. Elige un archivo de menos de 9 MB.',fileType:'Elige una imagen PNG, JPG o WEBP.',localNotice:'Para enviarlo, abre el sitio publicado, no un archivo HTML local.',
-      thankTitle:'¡Carta enviada!',thankBody:'Gracias por ayudar a mejorar POST BIRD. Tu mensaje se ha enviado.',thankBack:'Escribir otra carta',
+      thankTitle:'¡Gracias por tu carta!',thankBody:'Tu mensaje se ha enviado al servicio del formulario. ¡Gracias por apoyar POST BIRD! Desarrollo el juego por mi cuenta y cada comentario me ayuda a mejorarlo.',thankBack:'Escribir otra carta',
       privacyTitle:'Privacidad y comentarios',privacyIntro:'Esta página recoge únicamente la información que decidas enviar para ayudar a investigar problemas y sugerencias del juego.',
       privacyDataTitle:'Datos recopilados',privacyData:'Tipo de problema, descripción, pasos opcionales, captura y correo opcional. El proveedor del formulario también puede procesar datos técnicos.',
       privacyWhereTitle:'Destino de tu mensaje',privacyWhere:'El mensaje pasa por FormSubmit.co, un servicio externo, y se reenvía por correo a la persona que desarrolla POST BIRD. GitHub Pages solo aloja la web.',
@@ -75,7 +75,7 @@
       screenshotLabel:'Captura de tela (opcional)',screenshotChoose:'Escolha uma imagem ou arraste aqui',screenshotFormats:'PNG, JPG ou WEBP · até 9 MB',removeImage:'Remover imagem',send:'Enviar carta',
       footerMessage:'Um pequeno jogo independente feito com carinho. Obrigado por ajudar POST BIRD a crescer.',privacy:'Privacidade',
       fileTooBig:'A imagem é grande demais. Escolha um arquivo menor que 9 MB.',fileType:'Escolha uma imagem PNG, JPG ou WEBP.',localNotice:'Para enviar, abra o site publicado, não um arquivo HTML local.',
-      thankTitle:'Sua carta foi enviada!',thankBody:'Obrigado por ajudar a melhorar POST BIRD. Sua mensagem foi enviada.',thankBack:'Escrever outra carta',
+      thankTitle:'Obrigado pela sua carta!',thankBody:'Sua mensagem foi enviada ao serviço de formulários. Obrigado por apoiar POST BIRD! Eu desenvolvo o jogo por conta própria, e cada relato me ajuda a deixá-lo melhor.',thankBack:'Escrever outra carta',
       privacyTitle:'Privacidade e feedback',privacyIntro:'Esta página coleta apenas as informações que você decidir enviar para ajudar a investigar problemas e sugestões.',
       privacyDataTitle:'Dados coletados',privacyData:'Categoria, descrição, etapas opcionais, imagem e e-mail opcional. O serviço do formulário também pode processar dados técnicos.',
       privacyWhereTitle:'Para onde vai a mensagem',privacyWhere:'A mensagem é processada pelo serviço externo FormSubmit.co e encaminhada por e-mail à pessoa que desenvolve POST BIRD. O GitHub Pages apenas hospeda o site.',
@@ -91,7 +91,7 @@
       screenshotLabel:'Screenshot (optional)',screenshotChoose:'Bild auswählen oder hierher ziehen',screenshotFormats:'PNG, JPG oder WEBP · max. 9 MB',removeImage:'Bild entfernen',send:'Brief abschicken',
       footerMessage:'Ein kleines Indie-Spiel, mit Liebe gemacht. Danke, dass du POST BIRD hilfst.',privacy:'Datenschutz',
       fileTooBig:'Das Bild ist zu groß. Bitte eine Datei unter 9 MB wählen.',fileType:'Bitte ein PNG-, JPG- oder WEBP-Bild wählen.',localNotice:'Zum Absenden bitte die veröffentlichte Website statt einer lokalen HTML-Datei öffnen.',
-      thankTitle:'Dein Brief ist unterwegs!',thankBody:'Danke, dass du POST BIRD verbesserst. Deine Nachricht wurde abgesendet.',thankBack:'Noch einen Brief schreiben',
+      thankTitle:'Danke für deinen Brief!',thankBody:'Deine Nachricht wurde an den Formulardienst übermittelt. Danke, dass du POST BIRD unterstützt! Ich entwickle dieses Spiel allein, und jede Rückmeldung hilft mir, es zu verbessern.',thankBack:'Noch einen Brief schreiben',
       privacyTitle:'Datenschutz und Feedback',privacyIntro:'Diese Seite erfasst nur die Angaben, die du freiwillig absendest, damit Fehler und Vorschläge geprüft werden können.',
       privacyDataTitle:'Erfasste Angaben',privacyData:'Kategorie, Beschreibung, optionale Schritte, optionales Bild und optionale E-Mail. Der Formulardienst kann auch technische Daten verarbeiten.',
       privacyWhereTitle:'Empfänger der Nachricht',privacyWhere:'Das Formular wird über den Drittanbieter FormSubmit.co verarbeitet und per E-Mail an die Entwicklung von POST BIRD weitergeleitet. GitHub Pages hostet nur die Website.',
@@ -107,7 +107,7 @@
       screenshotLabel:'Capture d’écran (facultatif)',screenshotChoose:'Choisissez une image ou glissez-la ici',screenshotFormats:'PNG, JPG ou WEBP · 9 Mo maximum',removeImage:'Retirer l’image',send:'Envoyer la lettre',
       footerMessage:'Un petit jeu indépendant créé avec soin. Merci d’aider POST BIRD à grandir.',privacy:'Confidentialité',
       fileTooBig:'Image trop volumineuse. Choisissez un fichier de moins de 9 Mo.',fileType:'Choisissez une image PNG, JPG ou WEBP.',localNotice:'Pour envoyer votre message, ouvrez le site publié, pas un fichier HTML local.',
-      thankTitle:'Votre lettre est partie !',thankBody:'Merci d’aider à améliorer POST BIRD. Votre message a été envoyé.',thankBack:'Écrire une autre lettre',
+      thankTitle:'Merci pour votre lettre !',thankBody:'Votre message a été transmis au service de formulaire. Merci de soutenir POST BIRD ! Je développe ce jeu seule et chaque retour m’aide à l’améliorer.',thankBack:'Écrire une autre lettre',
       privacyTitle:'Confidentialité et retours',privacyIntro:'Cette page recueille uniquement les informations que vous choisissez de transmettre pour examiner des problèmes et suggestions.',
       privacyDataTitle:'Informations recueillies',privacyData:'Catégorie, description, étapes facultatives, capture et adresse e-mail facultative. Le service de formulaire peut aussi traiter des données techniques.',
       privacyWhereTitle:'Où va votre message',privacyWhere:'Votre message passe par FormSubmit.co, un service tiers, puis est transmis par e-mail à la personne qui développe POST BIRD. GitHub Pages héberge seulement le site.',
@@ -123,7 +123,7 @@
       screenshotLabel:'Zrzut ekranu (opcjonalnie)',screenshotChoose:'Wybierz obraz lub przeciągnij go tutaj',screenshotFormats:'PNG, JPG lub WEBP · maks. 9 MB',removeImage:'Usuń obraz',send:'Wyślij list',
       footerMessage:'Mała niezależna gra tworzona z sercem. Dziękujemy za pomoc w rozwijaniu POST BIRD.',privacy:'Prywatność',
       fileTooBig:'Obraz jest za duży. Wybierz plik mniejszy niż 9 MB.',fileType:'Wybierz obraz PNG, JPG lub WEBP.',localNotice:'Aby wysłać zgłoszenie, otwórz opublikowaną stronę, a nie lokalny plik HTML.',
-      thankTitle:'List został wysłany!',thankBody:'Dziękujemy za pomoc w ulepszaniu POST BIRD. Wiadomość została wysłana.',thankBack:'Napisz kolejny list',
+      thankTitle:'Dziękuję za Twój list!',thankBody:'Wiadomość została przesłana do usługi formularza. Dziękuję za wsparcie POST BIRD! Tworzę tę grę samodzielnie i każda uwaga pomaga mi ją ulepszać.',thankBack:'Napisz kolejny list',
       privacyTitle:'Prywatność i zgłoszenia',privacyIntro:'Strona zbiera tylko dane, które zdecydujesz się przesłać, aby pomóc w sprawdzaniu błędów i sugestii.',
       privacyDataTitle:'Jakie dane są zbierane',privacyData:'Rodzaj zgłoszenia, opis, opcjonalne kroki odtworzenia, obraz i adres e-mail. Dostawca formularza może też przetwarzać dane techniczne.',
       privacyWhereTitle:'Dokąd trafia wiadomość',privacyWhere:'Wiadomość jest obsługiwana przez zewnętrzny serwis FormSubmit.co i wysyłana e-mailem do osoby tworzącej POST BIRD. GitHub Pages udostępnia tylko stronę.',
@@ -187,6 +187,9 @@
     fr: 'Ce formulaire n’est pas encore connecté. Réessayez plus tard.',
     pl: 'Ten formularz nie jest jeszcze połączony. Spróbuj ponownie później.'
   };
+  // The static HTTPS URL in index.html works even if JavaScript has not run.
+  // On a project Pages URL, the URL constructor keeps the correct /repo/ base.
+  const thankYouUrl = new URL('thanks.html', location.href).href;
   const form = $('feedbackForm'), photo = $('attachment'), drop = $('dropZone'), remove = $('removeAttachment');
   const showStatus = (msg)=> {const node=$('statusNote');if(node){node.textContent=msg;node.hidden=false;}};
   if (form && photo && drop) {
@@ -209,7 +212,8 @@
       if (location.protocol==='file:'){e.preventDefault();showStatus(text('localNotice'));return;}
       $('formSubject').value = `POST BIRD • ${form.querySelector('input[name="Issue type"]:checked').value}`;
       $('formWebsite').value = location.href.split('#')[0];
-      $('nextUrl').value = new URL("thanks.html", location.href).href;
+      if ($('sourceUrl')) $('sourceUrl').value = location.href.split('#')[0];
+      $('nextUrl').value = thankYouUrl;
       // The browser performs the real multipart POST, so screenshots reach FormSubmit intact.
     });
   }
